@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'delivery_bridge = rtreebot.delivery_bridge_node:main',
+            'delivery_ctrl = rtreebot.delivery_ctrl:main',
         ],
     },
 )
